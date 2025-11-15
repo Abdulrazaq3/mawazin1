@@ -1,23 +1,22 @@
 {
-  "name": "mawazin-real-estate-management",
-  "version": "1.0.0",
-  "description": "An electronic system for managing real estate, units, tenants, financial transactions, performance reports, and reminders.",
-  "main": "index.tsx",
+  "name": "copy-of-copy-of-موازين---إدارة-العقارات",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "echo \"Development server not needed for this environment.\""
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "recharts": "^3.4.1"
   },
-  "keywords": [
-    "real-estate",
-    "property-management",
-    "react",
-    "dashboard"
-  ],
-  "author": "Mawazin",
-  "license": "ISC"
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
 }
